@@ -1,5 +1,6 @@
 # Qeeta
 
+https://tyukei.github.io/Frosty-Friday/Qeeta/
 
 ## Setup
 
