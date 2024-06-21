@@ -1,6 +1,6 @@
 # Qeeta
 
-https://tyukei.github.io/Frosty-Friday/Qeeta/
+[Qeeta](https://tyukei.github.io/Frosty-Friday/Qeeta/home/home.html)
 
 ## Setup
 
