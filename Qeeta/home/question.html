@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>質問 | Qeeta</title>
+    <link rel="stylesheet" type="text/css" href="../style/css/home.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <a href="./home.html" class="logo">Qeeta</a>
+            <nav>
+                <ul>
+                    <li><a href="./trand.html">トレンド</a></li>
+                    <li><a href="./question.html">質問</a></li>
+                    <li><a href="./calendar.html">アドベントカレンダー</a></li>
+                    <li><a href="./event.html">公式イベント</a></li>
+                    <li><a href="./colum.html">公式コラム</a></li>
+                    <li><a href="./recruitment.html">募集</a></li>
+                    <li><a href="./organization.html">Organization</a></li>
+                </ul>
+            </nav>
+        </div>
+    <main>
+        <div class="main-container">
+            <h1>質問</h1>
+            <section>
+                <h2>よくある質問</h2>
+                <article>
+                    <h3>質問1: Pythonとは何ですか？</h3>
+                    <p>Pythonは、読みやすく効率的なコードを書くことを目的とした高水準のプログラミング言語です。</p>
+                </article>
+                <article>
+                    <h3>質問2: HTMLとCSSの違いは何ですか？</h3>
+                    <p>HTMLはウェブページの構造を定義し、CSSはそれらのスタイルを定義します。</p>
+                </article>
+                <!-- Add more questions and answers here -->
+            </section>
+            <section>
+                <h2>新しい質問を投稿</h2>
+                <form action="submit_question.php" method="post">
+                    <label for="question">質問:</label>
+                    <input type="text" id="question" name="question" required>
+                    <input type="submit" value="送信">
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>©Qeita Nakata</p>
+    </footer>
+
+</body>
+</html>

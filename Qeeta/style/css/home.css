@@ -1,0 +1,83 @@
+/* これはCSSコメントです */
+/* CSSのルールは選択子 { プロパティ: 値; } で構成されます。 */
+
+body {
+    background-color: #747474;
+    font-family: 'Arial', sans-serif; /* フォントの種類を指定 */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: white;
+    color: black;
+    padding: 20px 15px 20px 15px; /* 上右下左のパディング */
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+}
+
+.logo-container {
+    padding: 5px; /* ロゴの周囲の余白 */
+}
+
+.logo {
+    background-color: #55C500; /* ロゴの背景色 */
+    color: white; /* ロゴの文字色 */
+    font-size: 24px; /* ロゴのフォントサイズ */
+    font-weight: bold; /* フォントの太さ */
+    padding: 10px 20px; /* ロゴの内側の余白 */
+    border-radius: 5px; /* 角の丸み */
+    text-decoration: none; /* 下線を消す */
+    display: inline-block; /* インラインブロック要素として表示 */
+}
+
+nav ul {
+    list-style-type: none; /* リストマーカーをなくす */
+}
+
+nav ul li {
+    display: inline; /* リスト項目を横並びにする */
+    margin-right: 20px; /* 右のマージン */
+}
+
+nav ul li a {
+    color:black; /* リンクの文字色 */
+    text-decoration: none; /* 下線をなくす */
+}
+
+main {
+    padding: 15px;
+}
+
+.main-container {
+    align-items: center;
+    background-color: white;
+    padding: 10px 0px 10px 0px;
+}
+
+.section-container{
+    padding: 10px 20px;
+    font-size: 20px;
+    border-bottom: solid 1px rgb(190, 190, 190);
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center; /* 中央寄せ */
+    padding: 10px 0; /* 上下のパディング */
+}
